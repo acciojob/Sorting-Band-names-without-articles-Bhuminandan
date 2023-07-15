@@ -6,4 +6,4 @@ function strip(bandname) {
 
 const sortedBands = touristSpots.sort((a, b) => strip(a) > strip(b) ? 1 : -1);
 
-document.getElementById( '#bands' ).innerHTML = sortedBands.map( ( b ) => `<li>${b}</li>` ).join('');
+document.getElementById( 'bands' ).innerHTML = sortedBands.map( ( b ) => `<li>${b}</li>` ).join('');
